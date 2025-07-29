@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reyes del Taco</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa+One&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./images/Logo.png" alt="Reyes del Taco Logo" />
+    </header>
+    <nav>
+      <a href="#menu">Menu</a>
+      <!---
+      <a href="#about">About</a> 
+      -->
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">Kings of the Street Taco</div>
+
+    <section id="menu" class="section">
+      <h2>Our Menu</h2>
+      <div class="menu">
+        <div class="menu-item">
+          <h3>Tacos</h3>
+          <img src="images/AsadaTacos.png" alt="Taco" class="menu-image" />
+          <p>3 Tacos $9.99</p>
+        </div>
+
+        <div class="menu-item">
+          <h3>Rolled Taquitos</h3>
+          <img src="images/Taquitos.png" alt="Taco" class="menu-image" />
+
+          <p>4 Taquitos $8.99</p>
+        </div>
+        <div class="menu-item">
+          <h3>XL Burrito</h3>
+          <img src="images/Burrito.png" alt="Taco" class="menu-image" />
+
+          <p>1 Burrito $10.99</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="meats" class="menu-section transparent-section">
+      <h2>🔥 Select Your Meat</h2>
+      <ul class="menu-list">
+        <li>
+          <strong>Carne Asada</strong> – Grilled steak marinated with citrus &
+          spice
+        </li>
+        <li>
+          <strong>Al Pastor</strong> – Spit-roasted pork with pineapple &
+          achiote
+        </li>
+        <li>
+          <strong>Pulled Chicken</strong> – Grilled chicken, smoky and juicy
+        </li>
+        <li>
+          <strong>Chorizo</strong> – Spicy Mexican sausage, full of flavor
+        </li>
+        <li>
+          <strong>Ground Beef</strong> – Seasoned ground beef, juicy and
+          flavorful
+        </li>
+      </ul>
+    </section>
+
+    <section id="sides" class="menu-section transparent-section">
+      <h2>🍽️ Garnish and Toppings</h2>
+      <ul class="menu-list">
+        <li>Onion</li>
+        <li>Cilantro</li>
+        <li>Fresh Salsa</li>
+        <li>Guacamole</li>
+        <li>Sour Cream</li>
+      </ul>
+    </section>
+
+    <section id="deserts" class="menu-section transparent-section">
+      <h2>🍰 Desserts</h2>
+      <ul class="menu-list">
+        <li>Churros</li>
+        <li>Flan – Creamy caramel custard</li>
+        <li>3 Leches Cake</li>
+        <li>Fruit Salad with Tajín</li>
+        <li>Paletas – Mexican ice pops</li>
+        <li>Arroz con Leche – Rice pudding</li>
+        <li>Buñuelos – Crispy fried dough</li>
+        <li>Mexican Street Corn (Elote)</li>
+      </ul>
+    </section>
+
+    <!-- Comment out the section below if you want to hide the About section
+    <section id="about" class="section">
+      <h2>Our Story</h2>
+      <p>
+        Born in the heart of the city, Reyes del Taco is your go-to taco trailer
+        for bold, street-style flavors. Fresh, fast, and always fire-grilled
+        with love.
+      </p>
+    </section>
+    -->
+
+    <section id="contact" class="section">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <footer>&copy; 2025 Reyes del Taco. All rights reserved.</footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
