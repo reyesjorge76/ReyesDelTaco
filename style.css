@@ -22,7 +22,7 @@ header {
 }
 
 header img {
-  width: 220px;
+  width: 180px;
   margin-bottom: 0.5rem;
 }
 
@@ -60,7 +60,7 @@ nav a:hover {
   color: #fff;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
   font-family: "Tangerine", cursive;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .section {
